@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <meta charset lang="en">
+    <head>
+        <title>my website</title>
+    </head>
+    <body>
+        <header>javascript trial</header>
+        
+       <button onmouseover="document.getElementById('demo').innerHTML=add(4,5,3);"></button>
+       <button onmouseover="displayDate()">the time is?</button>
+       <p id="demo">welcome</p>
+        <script language="javascript" type="text/javascript">
+        function add(){
+            let sum=0;
+            for(let i=0; i<arguments.length;i++){
+                sum +=arguments[i];
+            }
+            return sum;
+        }
+        
+        </script>
+<p id="obj">objects in java</p>
+    </body>
+</html>
